@@ -18,6 +18,9 @@
 
 /*Inizio header*/
 header{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
     flex-basis: 100%;
     height: 70px;
     background-color: black;
@@ -56,8 +59,8 @@ header{
 
 /*Inizio main*/
 main{
-    margin-top: 70px;
-    margin-bottom: 80px;
+    padding-top: 70px;
+    padding-bottom: 120px;
     width: 100vw;
     background-color: black;
 }
@@ -98,9 +101,11 @@ main{
 
 /*Inizio Footer*/
 footer{
+    width: 100%;
     min-width: 1200px;
     height: 120px;
     justify-content: space-between;
+    
 }
 
 .functions{

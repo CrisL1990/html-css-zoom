@@ -59,10 +59,12 @@ header{
 
 /*Inizio main*/
 main{
+    z-index: 0;
     padding-top: 70px;
     padding-bottom: 120px;
     width: 100vw;
     background-color: black;
+    height: 100%;
 }
 
 .participants{
@@ -101,11 +103,12 @@ main{
 
 /*Inizio Footer*/
 footer{
+    position: fixed;
+    z-index: 999;
     width: 100%;
     min-width: 1200px;
     height: 120px;
     justify-content: space-between;
-    
 }
 
 .functions{
@@ -160,5 +163,10 @@ footer{
 
 #invite{
     align-items: flex-start;
+}
+
+.abs-pos{
+    bottom: 120px;
+    position: absolute;
 }
 /*Fine Footer*/
